@@ -9,7 +9,6 @@ public class Account {
             tokens[i] = StringUtils.capitalize(tokens[i]);
         this.name = StringUtils.join(tokens,' ');
     }
-
     public String getName() {
         return name;
     }
